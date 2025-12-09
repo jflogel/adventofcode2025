@@ -14,7 +14,8 @@ def test_solution_1_with_sample(filename, expected):
 
 solution_2_testdata = [
     ("sample.txt", 6),
-    ("input.txt", 5582), # FAILED, too low
+    ("input.txt", 6122),
+    # ("input.txt", 5582), # FAILED, too low
 ]
 
 @pytest.mark.parametrize("filename,expected", solution_2_testdata)
