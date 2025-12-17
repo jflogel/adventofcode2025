@@ -14,7 +14,7 @@ def test_solution_1_with_sample(filename, expected):
 
 solution_2_testdata = [
     ("sample.txt", 3121910778619),
-    # ("input.txt", 1),
+    ("input.txt", 171388730430281),
 ]
 
 @pytest.mark.parametrize("filename,expected", solution_2_testdata)
